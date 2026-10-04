@@ -45,7 +45,7 @@ export default function ProjectCard({ project }) {
         </div>
       </div>
       <h3 className="mt-4 font-display text-xl font-semibold">{project.title}</h3>
-      <p className={`mt-3 flex-grow text-[14.5px] text-muted ${project.wide ? "md:max-w-[70%]" : ""}`}>
+      <p className={`mt-3 flex-grow text-[14.5px] text-muted leading-relaxed ${project.wide ? "md:max-w-[85%]" : ""}`}>
         {project.desc}
       </p>
       <div className="mt-5 flex flex-wrap gap-2">

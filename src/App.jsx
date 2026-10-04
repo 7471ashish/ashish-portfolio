@@ -3,6 +3,7 @@ import Header from "./components/Header.jsx";
 import MobileMenu from "./components/MobileMenu.jsx";
 import Hero from "./components/Hero.jsx";
 import About from "./components/About.jsx";
+import Experience from "./components/Experience.jsx";
 import Projects from "./components/Projects.jsx";
 import Achievements from "./components/Achievements.jsx";
 import Education from "./components/Education.jsx";
@@ -18,6 +19,7 @@ export default function App() {
       <MobileMenu open={menuOpen} onClose={() => setMenuOpen(false)} />
       <Hero />
       <About />
+      <Experience />
       <Projects />
       <Achievements />
       <Education />

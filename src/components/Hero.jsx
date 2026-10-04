@@ -14,20 +14,20 @@ export default function Hero() {
       />
       <div className="relative z-10 mx-auto w-full max-w-[1140px] px-8">
         <div className="mb-[22px] flex items-center gap-2.5 font-mono text-[13px] text-hot before:h-px before:w-6 before:bg-hot">
-          B.TECH IT · IIIT UNA · CGPA 8.43
+          B.TECH IT · IIIT UNA · CGPA 8.53
         </div>
         <h1 className="max-w-[920px] font-display text-[40px] leading-[1.02] sm:text-[56px] lg:text-[82px]">
-          Building AI systems
+          Building intelligent AI systems
           <br />
-          that show their{" "}
+          and{" "}
           <span className="bg-heat-grad bg-clip-text text-transparent">
-            reasoning.
+            production-ready applications.
           </span>
         </h1>
-        <p className="mt-6 max-w-[560px] text-[17px] text-muted">
-          I'm Ashish — a full-stack developer and ML engineer who trains models,
-          then insists on explaining why they made the call. Grad-CAM heatmaps,
-          deployed apps, and clean APIs are my usual toolkit.
+        <p className="mt-6 max-w-[580px] text-[17px] text-muted">
+          I'm Ashish — an AI and full-stack developer focused on building
+          LLM-powered applications, AI agents, intelligent workflows,
+          backend systems, and modern web applications.
         </p>
         <div className="mt-10 flex flex-wrap items-center gap-4">
           <a
@@ -45,12 +45,12 @@ export default function Hero() {
             GitHub ↗
           </a>
           <a
-            href="https://huggingface.co/Ashish7471"
+            href="https://www.linkedin.com/in/ashish-bansal-28147b2a4/"
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-lg border border-line px-6 py-3.5 text-sm text-muted transition-all hover:border-cool hover:text-text"
           >
-            Hugging Face ↗
+            LinkedIn ↗
           </a>
         </div>
       </div>

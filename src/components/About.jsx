@@ -3,9 +3,9 @@ import Reveal from "./Reveal.jsx";
 import { SKILL_GROUPS } from "../data/siteData.js";
 
 const STATS = [
-  ["8.43", "CGPA"],
-  ["5+", "SHIPPED PROJECTS"],
-  ["4", "CONDITIONS DIAGNOSED BY MODEL"],
+  ["8.53", "CGPA"],
+  ["500+", "LEETCODE SOLVED"],
+  ["TOP 416", "ADOBE HACKATHON"],
 ];
 
 export default function About() {
@@ -19,31 +19,33 @@ export default function About() {
             </span>
             <div className="space-y-4 text-[15.5px] text-muted">
               <p>
-                I'm currently pursuing my{" "}
+                I'm pursuing my{" "}
                 <strong className="font-medium text-text">
-                  B.Tech in Information Technology at IIIT Una
+                  Bachelor of Technology in Information Technology at IIIT Una
                 </strong>
-                , where I split my time between core CS coursework and shipping
-                end-to-end AI/ML projects — from model training to production
-                deployment.
+                , where I work across software engineering, Generative AI,
+                Machine Learning, and Data Structures &amp; Algorithms.
               </p>
               <p>
-                My focus areas are{" "}
+                My current focus is building intelligent systems using{" "}
                 <strong className="font-medium text-text">
-                  deep learning for medical imaging
+                  LLMs, Agentic AI, LangChain, LangGraph, and RAG
                 </strong>{" "}
-                and{" "}
-                <strong className="font-medium text-text">
-                  full-stack web development
-                </strong>
-                . I care about models that are interpretable, not just accurate —
-                which is why Grad-CAM explainability shows up across most of my
-                computer vision work.
+                while also developing reliable backend and full-stack
+                applications.
               </p>
               <p>
-                Outside of ML, I build and ship full-stack apps with the MERN
-                stack, and I compete in Arduino-based robotics events at my
-                college's tech fest.
+                I enjoy building complete products — from AI agents and RAG
+                pipelines to responsive web applications and deployed ML
+                systems.
+              </p>
+              <p>
+                My core computer science foundation is built on{" "}
+                <strong className="font-medium text-text">
+                  Data Structures &amp; Algorithms, Operating Systems, Computer
+                  Networks, Object-Oriented Programming, and DBMS
+                </strong>
+                .
               </p>
             </div>
             <div className="mt-9 flex flex-wrap gap-10">
