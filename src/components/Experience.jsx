@@ -38,6 +38,19 @@ export default function Experience() {
                     <span>{exp.location}</span>
                     <span>·</span>
                     <span>{exp.mode}</span>
+                    {exp.link && (
+                      <>
+                        <span>·</span>
+                        <a
+                          href={exp.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-cool transition-colors hover:text-hot"
+                        >
+                          {exp.linkLabel || "Live Site"} ↗
+                        </a>
+                      </>
+                    )}
                   </div>
                 </div>
                 <div className="font-mono text-xs text-hot sm:text-right">

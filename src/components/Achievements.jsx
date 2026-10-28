@@ -45,6 +45,18 @@ export default function Achievements() {
               <p className="mt-2.5 max-w-[640px] text-[14.5px] text-muted leading-relaxed">
                 {item.desc}
               </p>
+              {item.link && (
+                <div className="mt-2">
+                  <a
+                    href={item.link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 font-mono text-xs text-cool transition-colors hover:text-hot"
+                  >
+                    {item.link.label} ↗
+                  </a>
+                </div>
+              )}
             </div>
           ))}
         </Reveal>

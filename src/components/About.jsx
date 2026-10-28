@@ -3,9 +3,10 @@ import Reveal from "./Reveal.jsx";
 import { SKILL_GROUPS } from "../data/siteData.js";
 
 const STATS = [
-  ["8.53", "CGPA"],
-  ["500+", "LEETCODE SOLVED"],
+  ["8.53", "CGPA (IIIT UNA)"],
+  ["1000+", "PROBLEMS SOLVED"],
   ["TOP 416", "ADOBE HACKATHON"],
+  ["98.2%", "DIAGNOSTIC ACCURACY"],
 ];
 
 export default function About() {
@@ -23,29 +24,30 @@ export default function About() {
                 <strong className="font-medium text-text">
                   Bachelor of Technology in Information Technology at IIIT Una
                 </strong>
-                , where I work across software engineering, Generative AI,
-                Machine Learning, and Data Structures &amp; Algorithms.
+                , working across Artificial Intelligence, Generative AI,
+                Full-Stack Development, and Algorithmic Problem Solving.
+              </p>
+              <p>
+                I recently worked as an{" "}
+                <strong className="font-medium text-text">SDE Intern at VRV Group</strong>{" "}
+                engineering interactive portal frontends with React.js, Tailwind CSS, and Framer Motion,
+                and delivered a multi-page client website as a{" "}
+                <strong className="font-medium text-text">Freelance Web Developer for DRB &amp; Company</strong>.
               </p>
               <p>
                 My current focus is building intelligent systems using{" "}
                 <strong className="font-medium text-text">
                   LLMs, Agentic AI, LangChain, LangGraph, and RAG
-                </strong>{" "}
-                while also developing reliable backend and full-stack
-                applications.
-              </p>
-              <p>
-                I enjoy building complete products — from AI agents and RAG
-                pipelines to responsive web applications and deployed ML
-                systems.
-              </p>
-              <p>
-                My core computer science foundation is built on{" "}
-                <strong className="font-medium text-text">
-                  Data Structures &amp; Algorithms, Operating Systems, Computer
-                  Networks, Object-Oriented Programming, and DBMS
                 </strong>
-                .
+                , alongside fine-tuning computer vision &amp; deep learning models
+                (EfficientNetB0, Grad-CAM).
+              </p>
+              <p>
+                I have solved{" "}
+                <strong className="font-medium text-text">1000+ coding problems</strong>{" "}
+                (500+ on LeetCode) and placed among the{" "}
+                <strong className="font-medium text-text">Top 416 out of 1.05 lakh teams (Top 0.4%)</strong>{" "}
+                in the Adobe Hackathon 2026.
               </p>
             </div>
             <div className="mt-9 flex flex-wrap gap-10">

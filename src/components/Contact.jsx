@@ -41,11 +41,11 @@ export default function Contact() {
             </a>
           </div>
 
-          <div className="mt-16 grid grid-cols-2 overflow-hidden rounded-2xl border border-line md:grid-cols-4">
+          <div className="mt-16 grid grid-cols-2 overflow-hidden rounded-2xl border border-line sm:grid-cols-3 lg:grid-cols-5">
             {CONTACT_ITEMS.map(({ k, v, href }) => (
               <div
                 key={k}
-                className="border-b border-r border-line p-6 text-left transition-colors hover:bg-surface md:border-b-0"
+                className="border-b border-r border-line p-5 text-left transition-colors hover:bg-surface lg:border-b-0 last:border-r-0"
               >
                 <div className="font-mono text-[11.5px] uppercase tracking-wider text-muted-2">
                   {k}

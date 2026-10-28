@@ -10,7 +10,7 @@ export default function Header({ menuOpen, setMenuOpen }) {
           ashish.bansal
         </div>
 
-        <div className="hidden gap-9 text-sm text-muted md:flex">
+        <div className="hidden gap-8 text-sm text-muted md:flex">
           {NAV_LINKS.map((l) => (
             <a key={l.href} href={l.href} className="transition-colors hover:text-text">
               {l.label}
